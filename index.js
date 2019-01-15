@@ -1,7 +1,7 @@
 'use strict';
 const escapeStringRegexp = require('escape-string-regexp');
 const ansiStyles = require('ansi-styles');
-const pureSupportsColor = require('supports-color/pure-supports-color');
+const pureSupportsColor = require('supports-color');
 
 const harden = Object.freeze;
 
